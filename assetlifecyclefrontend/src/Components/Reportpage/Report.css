@@ -1,0 +1,17 @@
+.report {
+  margin-top: 8vh;
+  margin-left: 45vw;
+}
+.inside {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+}
+.button3 {
+  text-decoration: none;
+  color: white;
+}

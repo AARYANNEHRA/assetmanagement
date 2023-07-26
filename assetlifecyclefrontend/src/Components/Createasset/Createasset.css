@@ -1,0 +1,27 @@
+.Createasset {
+  margin-top: 30px;
+  display: flex;
+  /* background-color: red; */
+  height: 75vh;
+}
+.assetleft {
+  flex: 0.25;
+}
+.left-item {
+  font-size: larger;
+  margin: 40px 50px;
+  text-align: center;
+  justify-content: center;
+}
+.left-item:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.vertical-line {
+  width: 2px;
+  background-color: black;
+}
+.assetright {
+  flex: 1;
+}

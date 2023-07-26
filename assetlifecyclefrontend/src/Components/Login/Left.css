@@ -1,0 +1,16 @@
+.Left {
+  flex: 1;
+}
+img {
+  margin-top: 25vh;
+  margin-left: 20vw;
+}
+.navigate {
+  font-size: x-large;
+  margin-top: 5vh;
+  margin-left: 20vw;
+  text-decoration: underline;
+}
+.navigate:hover {
+  cursor: pointer;
+}

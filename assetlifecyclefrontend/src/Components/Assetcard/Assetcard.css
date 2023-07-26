@@ -1,0 +1,23 @@
+.Assetcard {
+  height: 100px;
+  width: 65vw;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  padding: 40px;
+}
+.first-row,
+.second-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.third-row {
+  font-size: larger;
+}
+.first-row-items,
+.second-row-items {
+  flex: 1;
+  font-size: x-large;
+}

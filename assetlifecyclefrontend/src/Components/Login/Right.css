@@ -1,0 +1,33 @@
+.Right {
+  flex: 1;
+}
+.formstart {
+  box-sizing: border-box;
+  height: 50vh;
+  width: 25vw;
+  margin-top: 25vh;
+  border-radius: 25px;
+  padding: 25px;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20vw;
+}
+.input:focus {
+  outline: none;
+}
+.button {
+  color: white;
+  background: black;
+  margin-top: 25px;
+  height: 45px;
+  width: 80px;
+  border-radius: 10px;
+}
+.button:hover {
+  cursor: pointer;
+}

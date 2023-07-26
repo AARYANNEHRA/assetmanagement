@@ -1,0 +1,24 @@
+.Rightcreateasset {
+  margin-left: 15vw;
+  font-size: 20px;
+}
+.rightinput {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 20vw;
+}
+textarea {
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  font-size: large;
+  margin-top: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.rihgtinput:focus {
+  outline: none;
+}
