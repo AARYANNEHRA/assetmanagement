@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 function Report() {
   const [Data, setData] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:9002/report").then((res) => {
+    axios.get("https://assetmangement.onrender.com/report").then((res) => {
       setData(res.data.ReportData);
     });
   }, []);

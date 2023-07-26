@@ -11,7 +11,7 @@ function Right({ setuser }) {
     const upassword = password;
     const user = { uemail, upassword };
     if (uemail && upassword) {
-      axios.post("http://localhost:9002/login", user).then((res) => {
+      axios.post("https://assetmangement.onrender.com/login", user).then((res) => {
         if (res.data.existuser) {
           setuser(res.data.existuser);
           window.localStorage.setItem("isLoggedin", true);

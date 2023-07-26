@@ -8,7 +8,7 @@ function Maintenance() {
   );
   const [ExpiredMaintenanceAssets, setExpiredMaintenanceAssets] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:9002/maintenance").then((res) => {
+    axios.get("https://assetmangement.onrender.com/maintenance").then((res) => {
       setupcomingmaintenanceassets(res.data.upcomingmaintenanceassets);
       setExpiredMaintenanceAssets(res.data.ExpiredMaintenanceAssets);
     });

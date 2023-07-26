@@ -8,7 +8,7 @@ function Rightviewasset() {
   const assetview = () => {
     if (serialno) {
       axios
-        .post("http://localhost:9002/viewasset", { serialno })
+        .post("https://assetmangement.onrender.com/viewasset", { serialno })
         .then((res) => {
           if (res.data.existviewasset) {
             setasset(res.data.existviewasset);

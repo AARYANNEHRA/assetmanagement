@@ -6,7 +6,7 @@ function Rightdeleteasset() {
   const assetdelete = () => {
     if (serialno) {
       axios
-        .delete("http://localhost:9002/assetdelete", { data: { serialno } })
+        .delete("https://assetmangement.onrender.com/assetdelete", { data: { serialno } })
         .then((res) => {
           alert(res.data.message);
         });

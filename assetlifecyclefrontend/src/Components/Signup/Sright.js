@@ -13,7 +13,7 @@ function Sright() {
     const uname = name;
     const user = { uname, uemail, upassword };
     if (uname && uemail && upassword) {
-      axios.post("http://localhost:9002/register", user).then((res) => {
+      axios.post("https://assetmangement.onrender.com/register", user).then((res) => {
         alert(res.data.message);
         navigate("/login");
       });

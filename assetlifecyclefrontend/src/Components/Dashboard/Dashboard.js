@@ -10,7 +10,7 @@ function Dashboard() {
   );
   const [ExpiredMaintenanceAssets, setExpiredMaintenanceAssets] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:9002/data").then((res) => {
+    axios.get("https://assetmangement.onrender.com/data").then((res) => {
       setcount(res.data.count);
       setCost(res.data.totalCost);
       setCategoryData(res.data.totalCategory);

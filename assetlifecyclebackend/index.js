@@ -9,7 +9,6 @@ app.use(express.urlencoded());
 app.use(cors());
 
 const port = 9002;
-
 mongoose.connect(process.env.MONGODB_CONNECTION_STRING,
   {
     useNewUrlParser: true,

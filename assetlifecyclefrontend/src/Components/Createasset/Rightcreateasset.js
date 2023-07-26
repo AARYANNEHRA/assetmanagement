@@ -32,7 +32,7 @@ function Rightcreateasset() {
       description
     ) {
       axios
-        .post("http://localhost:9002/saveasset", assetdetails)
+        .post("https://assetmangement.onrender.com/saveasset", assetdetails)
         .then((res) => {
           alert(res.data.message);
         });

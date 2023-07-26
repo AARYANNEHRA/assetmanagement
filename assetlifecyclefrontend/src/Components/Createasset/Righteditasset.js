@@ -7,7 +7,7 @@ function Righteditasset() {
   const editasset = () => {
     if (serialno && maintenancedate) {
       axios
-        .put("http://localhost:9002/assetedit", { serialno, maintenancedate })
+        .put("https://assetmangement.onrender.com/assetedit", { serialno, maintenancedate })
         .then((res) => {
           alert(res.data.message);
         });
